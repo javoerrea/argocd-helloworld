@@ -28,6 +28,15 @@
         "port": "830",
         "username": "admin",
         "password": "admin"
+      },
+      {
+        "uuid": "NODE216",
+        "vendor": "VENDOR_X",
+        "device": "ROADM-C",
+        "host": "10.0.1.10",
+        "port": "830",
+        "username": "admin",
+        "password": "admin"
       }
     ],
     "link": [
@@ -41,6 +50,34 @@
           {
             "node-uuid": "NODE213",
             "port": "1/6/LINEIN"
+          }
+        ],
+        "direction": "UNIDIRECTIONAL"
+      },
+      {
+        "uuid": "NODE210toNODE216",
+        "port": [
+          {
+            "node-uuid": "NODE210",
+            "port": "2/6/LINEOUT"
+          },
+          {
+            "node-uuid": "NODE216",
+            "port": "1/6/LINEIN"
+          }
+        ],
+        "direction": "UNIDIRECTIONAL"
+      },
+      {
+        "uuid": "NODE216toNODE213",
+        "port": [
+          {
+            "node-uuid": "NODE216",
+            "port": "1/6/LINEOUT"
+          },
+          {
+            "node-uuid": "NODE213",
+            "port": "2/6/LINEIN"
           }
         ],
         "direction": "UNIDIRECTIONAL"
