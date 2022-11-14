@@ -28,15 +28,6 @@
         "port": "830",
         "username": "admin",
         "password": "admin"
-      },
-      {
-        "uuid": "NODE216",
-        "vendor": "VENDOR_X",
-        "device": "ROADM-C",
-        "host": "10.0.1.10",
-        "port": "830",
-        "username": "admin",
-        "password": "admin"
       }
     ],
     "link": [

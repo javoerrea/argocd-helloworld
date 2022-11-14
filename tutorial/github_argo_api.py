@@ -36,7 +36,7 @@ BL_ENGINE_PORT = int(os.getenv("BL_ENGINE_PORT", 30316))
 app = Flask(__name__)
 MASTER_BRANCH = "main"
 GITHUB_ARGOCD_TOKEN = "GITHUB_ARGOCD_TOKEN"
-REPO = "tqhuy812/argocd-helloworld"
+REPO = "javoerrea/argocd-helloworld"
 
 token = os.getenv(GITHUB_ARGOCD_TOKEN, '')
 # print(token)
@@ -47,8 +47,8 @@ repo = g.get_repo(REPO)
 
 def push_to_repo(path, message, content, branch, update=False):
     author = InputGitAuthor(
-        "Huy Tran",
-        "tqhuy812@gmail.com"
+        "Javier Errea",
+        "errea@eurecom.fr"
     )
     # source = repo.get_branch("master")
     # repo.create_git_ref(ref=f"refs/heads/{branch}", sha=source.commit.sha)  # Create new branch from master
