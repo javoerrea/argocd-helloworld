@@ -1,6 +1,6 @@
 {
   "topology": {
-    "uuid": "hola",
+    "uuid": "topology",
     "node": [
       {
         "uuid": "NODE210",
